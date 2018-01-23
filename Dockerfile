@@ -1,5 +1,5 @@
-FROM my-stretch:latest
-MAINTAINER Jamie McClelland <jamie@progressivetech.org>
+FROM ypcs/debian:stretch
+MAINTAINER Ville Korhonen <ville@xd.fi>
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
